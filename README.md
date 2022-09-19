@@ -11,8 +11,7 @@ ESP8266 based module which receives signal from a NRF24L01+ radio transmitter an
 
 Install the required libraries:
 
-**[async-mqtt-client (tested with version: 0.9.0)]
-(https://github.com/marvinroger/async-mqtt-client)**
+**[async-mqtt-client (tested with version: 0.9.0)](https://github.com/marvinroger/async-mqtt-client)**
 
 WiFiManager (tested with version: 2.0.11-beta)
 https://github.com/tzapu/WiFiManager
