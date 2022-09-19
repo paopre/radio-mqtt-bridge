@@ -43,9 +43,9 @@ with:
   * Add a button between **GND** and **D2**
 
   * Add a 103 capacitor between **D3** and **GND**
+<br>
+<br>
 
-<br>
-<br>
 ****************************
 **RUN THE FIRMWARE:**
 ****************************
