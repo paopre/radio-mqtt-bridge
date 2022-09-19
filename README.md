@@ -34,12 +34,12 @@ with:
 
   * Pin connections
   ```
-  NodeMCU **D3**  <-> NRF24L01+ CSN** 
-  NodeMCU **D8**  <-> NRF24L01+ CE
-  NodeMCU **D5**  <-> NRF24L01+ SCK
-  NodeMCU **D6**  <-> NRF24L01+ MISO
-  NodeMCU **D7**  <-> NRF24L01+ MOSI
-  NodeMCU **3V3** <-> NRF24L01+ VCC
+  NodeMCU D3  <-> NRF24L01+ CSN 
+  NodeMCU D8  <-> NRF24L01+ CE
+  NodeMCU D5  <-> NRF24L01+ SCK
+  NodeMCU D6  <-> NRF24L01+ MISO
+  NodeMCU D7  <-> NRF24L01+ MOSI
+  NodeMCU 3V3 <-> NRF24L01+ VCC
   ```
   * Add a button between **GND** and **D2**
 
