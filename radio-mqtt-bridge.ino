@@ -1,4 +1,9 @@
-//?? eliminare spazi e doppie righe bianche
+/**
+ * radio-mqtt-bridge.ino
+ * @author Creator paopre
+ * @version 0.0.0
+ * @license GPL-2.0
+ */
 
 #include <FS.h>  //this needs to be first, or it all crashes and burns...
 #include <printf.h>
