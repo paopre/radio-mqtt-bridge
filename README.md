@@ -54,7 +54,7 @@ Connect to the access point and configure the module by setting, through the web
 
   * The log of the bridge is provided by a console embedded in the web interface or through the serial line.
 The builtin LED of NodeMCU provides some infos as well:
-
+    ```
     *) ACCESS POINT MODE ON      -> one long blink
     *) WiFi connected            -> four short blinks
     *) WiFi disconnected         -> four long blinks
@@ -64,7 +64,7 @@ The builtin LED of NodeMCU provides some infos as well:
     *) NRF24L01 configuration OK -> five long blinks
     *) Reset to factory settings -> a series of very short blinks
     *) Radio message received    -> two short blinks
-
+    ```
   * The NRF24L01 configuration log or blink event is useful for understanding if the NRF24L01+ radio module is correctly connected and correctly communicates with the NodeMCU module.
 
   * The bridge can be reset to factory settings by keeping the button between GND and D2 pressed for about three seconds.
