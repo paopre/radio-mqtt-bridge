@@ -25,8 +25,10 @@ async-mqtt-client must be installed manually (see instructions in the website); 
 with:
 
 ``` if (_state != CONNECTED) return 0; ```
+
 <br>
 <br>
+
 ****************************
 **CIRCUIT LAYOUT**
 ****************************
