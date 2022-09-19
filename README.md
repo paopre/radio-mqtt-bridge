@@ -1,6 +1,6 @@
 # Radio-MQTT-Bridge
 
-**[ESP8266](https://en.wikipedia.org/wiki/ESP8266)** based module which receives signal from a **[NRF24L01+](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf)** radio transmitter and sends them to a **MQTT** server
+**[ESP8266](https://en.wikipedia.org/wiki/ESP8266)** based module which receives signals from a **[NRF24L01+](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf)** radio transmitter and sends them to a **MQTT** server
 <br><br>Tested on a **[NodeMCU](https://en.wikipedia.org/wiki/NodeMCU)** board
 <br><br>Works with the **[ESP8266 Arduino platform](https://github.com/esp8266/Arduino)**
 
@@ -71,4 +71,4 @@ The builtin LED of NodeMCU provides some infos as well:
     ```
   * The NRF24L01 configuration log or blink event is useful for understanding if the NRF24L01+ radio module is correctly connected and correctly communicates with the NodeMCU module.
 
-  * The bridge can be reset to factory settings by keeping the button between GND and D2 pressed for about three seconds.
+  * The bridge can be reset to factory settings by keeping the button between **GND** and **D2** pressed for about three seconds.
