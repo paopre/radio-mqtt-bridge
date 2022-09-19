@@ -5,7 +5,7 @@ Tested on a **[NodeMCU](https://en.wikipedia.org/wiki/NodeMCU)** board
 <br>
 <br>
 ****************************
-**COMPILE THE FIRMWARE:**
+**COMPILE THE FIRMWARE**
 ****************************
 
 Install the required libraries:
@@ -47,7 +47,7 @@ with:
 <br>
 
 ****************************
-**RUN THE FIRMWARE:**
+**RUN THE FIRMWARE**
 ****************************
 
   * NodeMCU goes into Access Point mode, after booting, if WiFi is not configured or if a WiFi connection can't be established after some attempts. The access point SSID is in the form: rmb-xyz (IP: 192.168.4.1).
