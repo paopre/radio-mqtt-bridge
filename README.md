@@ -1,7 +1,7 @@
 # Radio-MQTT-Bridge
 
-**[ESP8266](https://en.wikipedia.org/wiki/ESP8266)** based module which receives signal from a **[NRF24L01+](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf)** radio transmitter and sends them to a MQTT server.
-Tested on a **[NodeMCU](https://en.wikipedia.org/wiki/NodeMCU)**** board
+**[ESP8266](https://en.wikipedia.org/wiki/ESP8266)** based module which receives signal from a **[NRF24L01+](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf)** radio transmitter and sends them to a **MQTT** server.
+Tested on a **[NodeMCU](https://en.wikipedia.org/wiki/NodeMCU)** board
 <br>
 <br>
 ****************************
