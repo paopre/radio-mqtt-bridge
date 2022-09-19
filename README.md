@@ -13,35 +13,32 @@ Install the required libraries:
 
 **[async-mqtt-client (tested with version: 0.9.0)](https://github.com/marvinroger/async-mqtt-client)**
 
-WiFiManager (tested with version: 2.0.11-beta)
-https://github.com/tzapu/WiFiManager
+**[WiFiManager (tested with version: 2.0.11-beta)](https://github.com/tzapu/WiFiManager)**
 
-ArduinoJson (tested with version: 6.19.4)
-https://arduinojson.org/
+**[ArduinoJson (tested with version: 6.19.4)](https://arduinojson.org/)**
 
-RF24 (tested with version: 1.4.4)
-https://nrf24.github.io/RF24/
+**[RF24 (tested with version: 1.4.4)](https://nrf24.github.io/RF24/)**
 
 WiFiManager, ArduinoJson and RF24 can be installed with Arduino's Library Manager.
 async-mqtt-client must be installed manually (see instructions in the website); after installing it, you MUST patch it by replacing, in AsyncMqttClient.cpp, the following line:
 
-if (_state != CONNECTED || GET_FREE_MEMORY() < MQTT_MIN_FREE_MEMORY) return 0;
+``` if (_state != CONNECTED || GET_FREE_MEMORY() < MQTT_MIN_FREE_MEMORY) return 0; ```
 
 with:
 
-if (_state != CONNECTED) return 0;
+``` if (_state != CONNECTED) return 0; ```
 
 ****************************
 **CONNECT THE PINS:**
 ****************************
 
 *)
-NodeMCU D3  <-> NRF24L01+ CSN
-NodeMCU D8  <-> NRF24L01+ CE
-NodeMCU D5  <-> NRF24L01+ SCK
-NodeMCU D6  <-> NRF24L01+ MISO
-NodeMCU D7  <-> NRF24L01+ MOSI
-NodeMCU 3V3 <-> NRF24L01+ VCC
+  NodeMCU D3  <-> NRF24L01+ CSN 
+  NodeMCU D8  <-> NRF24L01+ CE
+  NodeMCU D5  <-> NRF24L01+ SCK
+  NodeMCU D6  <-> NRF24L01+ MISO
+  NodeMCU D7  <-> NRF24L01+ MOSI
+  NodeMCU 3V3 <-> NRF24L01+ VCC
 
 *)
 Add a button between GND and D2
