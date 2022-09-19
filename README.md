@@ -1,10 +1,8 @@
 # Radio-MQTT-Bridge
 
 ESP8266 based module which receives signal from a NRF24L01+ radio transmitter and sends them to a MQTT server
-
-
-
-
+<br>
+<br>
 ****************************
 **COMPILE THE FIRMWARE:**
 ****************************
