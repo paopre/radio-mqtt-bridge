@@ -32,7 +32,7 @@ with:
 **CONNECT THE PINS:**
 ****************************
 
-*)
+  *
   NodeMCU D3  <-> NRF24L01+ CSN 
   NodeMCU D8  <-> NRF24L01+ CE
   NodeMCU D5  <-> NRF24L01+ SCK
@@ -40,11 +40,9 @@ with:
   NodeMCU D7  <-> NRF24L01+ MOSI
   NodeMCU 3V3 <-> NRF24L01+ VCC
 
-*)
-Add a button between GND and D2
+  * Add a button between GND and D2
 
-*)
-Add a 103 capacitor between D3 and GND
+  * Add a 103 capacitor between D3 and GND
 
 ****************************
 **RUN THE FIRMWARE:**
