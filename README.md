@@ -49,10 +49,10 @@ with:
 **RUN THE FIRMWARE:**
 ****************************
 
-*) NodeMCU goes into Access Point mode, after booting, if WiFi is not configured or if a WiFi connection can't be established after some attempts. The access point SSID is in the form: rmb-xyz (IP: 192.168.4.1).
+  * NodeMCU goes into Access Point mode, after booting, if WiFi is not configured or if a WiFi connection can't be established after some attempts. The access point SSID is in the form: rmb-xyz (IP: 192.168.4.1).
 Connect to the access point and configure the module by setting, through the web interface, the MQTT parameters (server address, port and topic) and the NRF24L01 radio parameters (radio channel, payload size, power amplifier level, data rate). After booting, the module listens to incoming radio messages and publishes the received messages on the configured MQTT topic.
 
-*) The log of the bridge is provided by a console embedded in the web interface or through the serial line.
+  * The log of the bridge is provided by a console embedded in the web interface or through the serial line.
 The builtin LED of NodeMCU provides some infos as well:
 
     *) ACCESS POINT MODE ON      -> one long blink
@@ -65,6 +65,6 @@ The builtin LED of NodeMCU provides some infos as well:
     *) Reset to factory settings -> a series of very short blinks
     *) Radio message received    -> two short blinks
 
-*) The NRF24L01 configuration log or blink event is useful for understanding if the NRF24L01+ radio module is correctly connected and correctly communicates with the NodeMCU module.
+  * The NRF24L01 configuration log or blink event is useful for understanding if the NRF24L01+ radio module is correctly connected and correctly communicates with the NodeMCU module.
 
-*) The bridge can be reset to factory settings by keeping the button between GND and D2 pressed for about three seconds.
+  * The bridge can be reset to factory settings by keeping the button between GND and D2 pressed for about three seconds.
