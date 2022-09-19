@@ -3,7 +3,7 @@
 ESP8266 based module which receives signal from a NRF24L01+ radio transmitter and sends them to a MQTT server
 
 
-**HOW-TO:**
+
 
 ****************************
 **COMPILE THE FIRMWARE:**
@@ -28,6 +28,7 @@ with:
 
 ``` if (_state != CONNECTED) return 0; ```
 
+
 ****************************
 **CIRCUIT LAYOUT**
 ****************************
@@ -44,6 +45,7 @@ with:
   * Add a button between **GND** and **D2**
 
   * Add a 103 capacitor between **D3** and **GND**
+
 
 ****************************
 **RUN THE FIRMWARE:**
