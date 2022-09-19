@@ -44,7 +44,6 @@ with:
 
   * Add a 103 capacitor between **D3** and **GND**
 <br>
-<br>
 
 ****************************
 **RUN THE FIRMWARE:**
