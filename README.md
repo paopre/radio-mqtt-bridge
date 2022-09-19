@@ -25,10 +25,8 @@ async-mqtt-client must be installed manually (see instructions in the website); 
 with:
 
 ``` if (_state != CONNECTED) return 0; ```
-
 <br>
 <br>
-
 ****************************
 **CIRCUIT LAYOUT**
 ****************************
@@ -45,8 +43,10 @@ with:
   * Add a button between **GND** and **D2**
 
   * Add a 103 capacitor between **D3** and **GND**
+
 <br>
 <br>
+
 ****************************
 **RUN THE FIRMWARE:**
 ****************************
