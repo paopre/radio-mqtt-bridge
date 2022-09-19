@@ -29,10 +29,10 @@ with:
 ``` if (_state != CONNECTED) return 0; ```
 
 ****************************
-**CONNECT THE PINS:**
+** CIRCUIT LAYOUT **
 ****************************
 
-  *
+  * Pin connections
   ```
   NodeMCU D3  <-> NRF24L01+ CSN 
   NodeMCU D8  <-> NRF24L01+ CE
